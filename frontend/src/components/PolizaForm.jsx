@@ -139,7 +139,9 @@ export default function PolizaForm({ selectedPoliza, onSubmit, onCancel }) {
           </select>
         </label>
 
-        <label>Peso<input type="number" name="peso" value={form.peso} onChange={setField} /></label>
+        <label><br></br>Peso 
+          <input type="number" name="peso" value={form.peso} onChange={setField} />
+        </label>
 
         <label>
           Siniestro
